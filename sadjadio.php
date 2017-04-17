@@ -8,12 +8,11 @@ if (!empty($_SERVER['HTTP_CLIENT_IP'])){
   $ip=$_SERVER['REMOTE_ADDR'];
 }
 $ip = ip2long($ip);
+
 $t = $database->select("shit", "ip", [
 	"ip" => $ip
 ]);
-$t = $database->select("shit", "ip", [
-	"ip" => $ip
-]);$database->insert('shit', [
+$database->insert('shit', [
     'ip' => $ip,
     'ideas' => $_POST['ideas'],
     'three' => $_POST['optionsRadios'],

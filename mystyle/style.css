@@ -1,0 +1,77 @@
+@font-face {
+    font-family: Samim;
+    src: url('http://fonts.codearena.ir/rastikerdar/samim/samim.eot');
+    src: url('http://fonts.codearena.ir/rastikerdar/samim/samim.eot?#iefix') format('embedded-opentype'),
+         url('http://fonts.codearena.ir/rastikerdar/samim/samim.woff') format('woff'),
+         url('http://fonts.codearena.ir/rastikerdar/samim/samim.ttf') format('truetype');
+    font-weight: normal;
+  }
+body { margin-top:20px; direction: rtl ; font-family: samim;  }
+.panel-body:not(.two-col) { padding:0px }
+.glyphicon { margin-right:5px; }
+.glyphicon-new-window { margin-left:5px; }
+.panel-body .radio,.panel-body .checkbox {margin-top: 0px;margin-bottom: 0px;}
+.panel-body .list-group {margin-bottom: 0;}
+.margin-bottom-none { margin-bottom: 0; }
+.panel-body .radio label,.panel-body .checkbox label { display:block; }
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+  font-family: Samim;
+}
+.titr{
+  color: white;
+  text-shadow: 1px 1px #000;
+
+}
+
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: Samim;
+}
+.checkbox input[type=checkbox], .checkbox-inline input[type=checkbox], .radio input[type=radio], .radio-inline input[type=radio] {
+  margin: 0 -20px;
+}
+
+.list-group {
+  padding-right: 0;
+}
+
+.list-group-item {
+    padding: 10px 34px;
+}
+.glyphicon {
+    margin-left: 5px;
+}
+.test {
+  margin-bottom: 10px;
+}
+.kh{
+  display: none;
+}
+.cee{
+  width: 500px;
+  height: auto;
+  margin: 0 auto;
+}
+.mar{
+  margin: 1px 2px;
+}
+.background-image {
+    background-image: url(../a.jpg);
+    background-size: cover;
+    display: block;
+    -webkit-filter: blur(8px);
+    -moz-filter: blur(8px);
+    -o-filter: blur(8px);
+    -ms-filter: blur(8px);
+    filter: blur(8px);
+    width: 101%;
+    height: 101%;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    position: fixed;
+    z-index: -1;
+}

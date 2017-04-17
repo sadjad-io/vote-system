@@ -1,2 +1,2 @@
 # vote-system
- ideas.sadjadio.ir
+Instead of using Google Forms :)
